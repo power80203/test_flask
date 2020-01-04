@@ -6,7 +6,6 @@ from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, ItemList
 
-# test 
 
 
 app = Flask(__name__)
