@@ -6,6 +6,9 @@ from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, ItemList
 
+# test 
+
+
 app = Flask(__name__)
 app.config['PROPAGATE_EXCEPTIONS'] = True
 app.secret_key = 'jose'
